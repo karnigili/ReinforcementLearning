@@ -1,7 +1,7 @@
 
 # Solving the Unity Reacher environment using PPO and PyTorch
 
-![Reacher](reacher.gif)
+![Reacher](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/PPO/Reacher.gif)
 
 This project features a policy-based RL algorithm. Here, a PPO agent solves the Unity Reacher environment.
 
