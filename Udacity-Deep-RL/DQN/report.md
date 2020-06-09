@@ -68,5 +68,19 @@ The network is a straight forward sequential network with two hidden layers.   T
 The agent achieved the target score of 13 over 100 consecutive episodes, as seen in the graph below.
 
 
-![img](https://github.com/karnigili/Deep-RL/blob/master/DQN/results.png)
+![img](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/DQN/results.png)
 
+
+## Future Directions 
+
+A straight forward idea to continue this project would be to implement a more complex DQN version. There are several issues with the DQN algorithm and at least six common extensions that address these different issues. The figure below compares their performance. 
+
+![img](https://video.udacity-data.com/topher/2018/June/5b3814f1_screen-shot-2018-06-30-at-6.40.09-pm/screen-shot-2018-06-30-at-6.40.09-pm.png)
+
+A good place to start would be to choose a simple extension, like the Double DQN (DDQN), the Prioritized experience replay, or the Dueling DQN. 
+
+**Double DQN** resolves a stability issue with DQN. Specifically, it targets the maximization bias stemming from a systematic overestimation in the learning process. DDQN introduces two separate Q-value estimators, each of which is used to update the other. This separation decreases the bias and stabilizes the learning process. Read more about it [here](https://arxiv.org/pdf/1509.06461.pdf).
+
+**Prioritized experience replay** improves the sampling of previous experience. In the classic DQN, experience transitions were uniformly sampled from a replay memory. However, that ignores the idea that some experiences hold higher significance compared to others. Such significance is commonly attributed using the TD error. Read more about it [here](https://arxiv.org/abs/1511.05952).
+
+**Dueling DQN** enhances the classic DQN by generalizing the learning across actions without imposing any change to the underlying reinforcement learning algorithm. It does so by creating two separate estimators: one for the state value function and the other for state-dependent action advantage function. Read more about it [here](https://arxiv.org/abs/1511.06581).
