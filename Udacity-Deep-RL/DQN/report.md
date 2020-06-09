@@ -65,7 +65,7 @@ The network is a straight forward sequential network with two hidden layers.   T
 
 ## Results
 
-The agent achieved the target score of 13 over 100 consecutive episodes, as seen in the graph below.
+The agent achieved the target score of 13 over 100 consecutive episodes, as seen in the graph below. Upload the trained model using the [model.pth](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/DQN/model.pth) file.
 
 
 ![img](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/DQN/results.png)
