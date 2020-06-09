@@ -5,7 +5,7 @@
 This project features a value-based RL algorithm. Here, a DQN agent solves the Unity Banana-Navigation task.
 
 ## Deep Q-learning 
-Read more about Deep Q-learning and this implementation at the [report.md](https://github.com/karnigili/Deep-RL/blob/master/DQN/report.md) file.
+Read more about Deep Q-learning and this implementation at the [report.md](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/DQN/report.md) file.
 
 ## The Environment
 The environment describes a 2D space filled with yellow and blue bananas. The agent moves around the space collecting bananas. 
