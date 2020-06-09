@@ -6,7 +6,7 @@
 This project features a policy-based RL algorithm. Here, a PPO agent solves the Unity Reacher environment.
 
 ## Proximal Policy Optimization 
-Read more about PPO and this implementation at the [report.md]().
+Read more about PPO and this implementation at the [report.md](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/PPO/report.md).
 
 ## The Environment
 In this environment, a double-jointed arm can move to target locations. A **reward** of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, **the goal** of your agent is to maintain its position at the target location for as many time steps as possible.
