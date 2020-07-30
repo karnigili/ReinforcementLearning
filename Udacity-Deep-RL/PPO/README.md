@@ -13,7 +13,7 @@ In this environment, a double-jointed arm can move to target locations. A **rewa
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
-There are two version, 
+There are two version of this environemnt, I focus on the second one -  
 * The first version contains a single agent.
 * The second version contains 20 identical agents, each with its own copy of the environment. 
 
@@ -24,7 +24,7 @@ In order to solve the environment,
 
 ## Getting started
 ### Dependencies
-This project uses Unity mlagents & Pytorch. To install these, I used a conda environment. Follow the next steps to easily set up a local environment. 
+This project uses Unity ML-agents & Pytorch. To install these, I used a conda environment. Follow the next steps to easily set up a local environment. 
 
 First, install [Anaconda](https://www.anaconda.com/download/). Then, run in in terminal (Notice, this code is optimized for MacOS):
 ~~~~
