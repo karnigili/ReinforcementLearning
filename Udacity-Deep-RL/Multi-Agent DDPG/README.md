@@ -1,7 +1,7 @@
 
 # Solving the Unity Tennis environment using MA DDPG and PyTorch
 
-![img](img)
+![img](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/Multi-Agent%20DDPG/tennis.gif)
 
 This project features a policy-based RL algorithm. Here, two DDPG agent play tennis in a Unity environment.
 
