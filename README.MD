@@ -13,4 +13,4 @@ This repo showcases my work exploring different algorithms of RL and their appli
 
 2. The second project of the Udacity deep-RL course focuses on policy-based algorithms. Here, I solve the Unity reacher environment using PPO and PyTorch. See the full python code with accompanying explanations [here](https://github.com/karnigili/ReinforcementLearning/tree/master/Udacity-Deep-RL/PPO).
 
-3. The thirds project of the Udacity deep-RL course focuses on mutli-agent learning algorithms. Here, I solve the Unity Tennis environment using DDPG and PyTorch. See the full python code with accompanying explanations [here](https://github.com/karnigili/ReinforcementLearning/tree/master/Udacity-Deep-RL/DDPG).
+3. The thirds project of the Udacity deep-RL course focuses on mutli-agent learning algorithms. Here, I solve the Unity Tennis environment using DDPG and PyTorch. See the full python code with accompanying explanations [here](https://github.com/karnigili/ReinforcementLearning/tree/master/Udacity-Deep-RL/Multi-Agent%20DDPG).
