@@ -11,4 +11,6 @@ This repo showcases my work exploring different algorithms of RL and their appli
 ### Udacity Deep-RL
 1. The first project of the Udacity deep-RL course focuses on value-based algorithms. Here, I solve the Unity Banana-Navigation task using DQN and PyTorch. See the full python code with accompanying explanations [here](https://github.com/karnigili/ReinforcementLearning/tree/master/Udacity-Deep-RL/DQN). 
 
-1. The second project of the Udacity deep-RL course focuses on policy-based algorithms. Here, I solve the Unity reacher environment using PPO and PyTorch. See the full python code with accompanying explanations [here](https://github.com/karnigili/ReinforcementLearning/tree/master/Udacity-Deep-RL/PPO). 
+2. The second project of the Udacity deep-RL course focuses on policy-based algorithms. Here, I solve the Unity reacher environment using PPO and PyTorch. See the full python code with accompanying explanations [here](https://github.com/karnigili/ReinforcementLearning/tree/master/Udacity-Deep-RL/PPO).
+
+3. The thirds project of the Udacity deep-RL course focuses on mutli-agent learning algorithms. Here, I solve the Unity Tennis environment using DDPG and PyTorch. See the full python code with accompanying explanations [here](https://github.com/karnigili/ReinforcementLearning/tree/master/Udacity-Deep-RL/DDPG).
