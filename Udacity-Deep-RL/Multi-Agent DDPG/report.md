@@ -57,9 +57,11 @@ The output activation is a hyperbolic tangent function (tanh). Lastly, the outpu
 ## Results
 
 The 2 agents achieved the target score of 0.5 over 100 consecutive episodes. 
-Upload the trained model using the [critic.pth]() and [actor.pth]() files.
+Upload the trained model using the [critic.pth](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/Multi-Agent%20DDPG/critic.pth) and [actor.pth](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/Multi-Agent%20DDPG/critic.pth) files.
+
+![](https://github.com/karnigili/ReinforcementLearning/blob/master/Udacity-Deep-RL/Multi-Agent%20DDPG/MADDPG.png)
 
 
 ## Future Directions 
-1. Attempt a simple noise parameter, perhaps even a Gaussian ( see [here](https://arxiv.org/pdf/1802.09477.pdf) and [here](https://arxiv.org/pdf/1804.08617.pdf))
+1. Attempt a simple noise parameter, perhaps even a Gaussian (see [here](https://arxiv.org/pdf/1802.09477.pdf) and [here](https://arxiv.org/pdf/1804.08617.pdf))
 2. Try solving the problem with other multi-agent algorithms
