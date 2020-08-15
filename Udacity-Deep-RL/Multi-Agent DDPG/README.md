@@ -55,7 +55,7 @@ When ready, launch a notebook using jupyter notebooks.
 jupyter notebook
 ~~~~
 ### Running the agent
-Open `DDPG.ipynb` and run cell by cell. The code in this file loads the used libraries, builds a DDPG agent, and, lastly, trains the model. 
+Open `MADDPG.ipynb` and run cell by cell. The code in this file loads the used libraries, builds a DDPG agent, and, lastly, trains the model. 
 
 ______
 Read more about the project [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p3_collab-compet)
